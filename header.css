@@ -1,0 +1,57 @@
+#intro {
+  background-image: url(assets/Background_Intro.png);
+  background-size: cover;
+
+  padding-top: 120px;
+  padding-inline: 163px;
+}
+
+#text p {
+  padding-top: 20px;
+}
+
+header > img:nth-child(1) {
+  margin-bottom: 56px;
+}
+
+#text {
+  width: 680px;
+  height: 159px;
+  margin: auto;
+}
+
+#tags {
+  display: flex;
+  justify-content: center;
+  
+  padding-block: 80px 120px;
+  gap: 8px;
+}
+
+.icons{
+  background-color: var(--gray-300);
+  width: 144px;
+  height: 40px;
+  border-radius: 99px;
+
+
+  display: flex;
+   justify-content: center; /*para alinhamento na horizontal */
+   align-items: center; /*para alinhamento na vertical */
+}
+
+.icons img {
+  vertical-align: middle;
+}
+          
+p img {
+  padding-right: 8px;
+}
+
+#carret {
+  padding-bottom: 57px;
+}
+
+
+
+

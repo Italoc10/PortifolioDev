@@ -1,0 +1,37 @@
+main {
+  padding: 72px 120px 144px 120px;
+  display: inline-block;
+}
+
+main h2 {
+ padding-block: 8px 52px;
+}
+
+figure {
+  width: 330px;
+  background-color: var(--gray-300);
+  padding: 12px;
+  border-radius: 12px;
+  text-align: left;
+}
+
+figure img {
+  width: 306px;
+  height: 156px;
+  border-radius: 8px;
+}
+
+figcaption {
+  margin-block: 20px 17px;
+}
+
+figcaption h4 {
+  padding-bottom: 8px;
+}
+
+#cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 16px;
+}
